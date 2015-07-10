@@ -1,0 +1,149 @@
+@media screen and (min-width:900px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+
+    }
+
+    .wrapper {
+
+        max-width: 960px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    header {
+
+        height: 120px;
+        width: 100%;
+        background-color: rgb(25, 97, 210);
+        display: table;
+
+    }
+
+    header img {
+
+        width: 100px;
+        height: 100px;
+        display: block;
+        float: left;
+        margin: 5px;
+    }
+
+    .main {
+
+        margin: 0 auto;
+        width: 300px;
+        padding: 20px;
+    }
+
+    header h1 {
+
+        display: inline-block;
+
+    }
+
+    nav {
+
+        display: inline-block;
+        clear: both;
+        text-align: center;
+    }
+
+    ul {
+
+        text-decoration: none;
+    }
+
+    li {
+        display: inline-block;
+        float: left;
+        border: 1px solid #0d02a0;
+        padding: 4px;
+        margin-right: 2px;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+
+    li:hover {
+        background-color: darkblue;
+    }
+
+    .container_content {
+
+        background-color: rgb(175, 204, 250);
+        width: 100%;
+        height: auto;
+        display: table;
+
+    }
+
+    aside {
+
+        height: auto;
+        width: 25%;
+        background-color: rgb(48, 172, 200);
+        float: right;
+        padding: 10px;
+        margin: 0;
+        font-family: cursive;
+        font-size: 14px;
+        font-style: italic;
+
+    }
+
+    .content {
+
+        float: left;
+        background-color: rgb(173, 185, 251);
+        width: 70%;
+        margin: 10px;
+        border-radius: 10px;
+        font-family: Arial;
+        font-size: 15px;
+
+    }
+
+    article {
+
+        display: block;
+        float: left;
+        padding: 10px;
+    }
+
+    .content img {
+
+        float: left;
+        /*max-width: 100%;*/
+        width: 30%;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+    .content p {
+
+        display: block;
+        float: right;
+        padding: 10px;
+        width: 60%;
+    }
+
+    footer {
+
+        background-color: rgb(8, 200, 147);
+        margin: 0 auto;
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+
+    footer p {
+
+        display: inline-block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+}
