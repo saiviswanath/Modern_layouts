@@ -1,0 +1,305 @@
+@media screen   and (max-width:900px){
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+
+    }
+
+    .wrapper {
+
+        max-width: 900px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    header {
+
+        height: 100px;
+        width: 100%;
+        background-color: rgb(25, 97, 210);
+        display: table;
+
+    }
+
+    header img {
+
+        max-width: 80px;
+        max-height: 80px;
+        float: left;
+        margin: 0 auto;
+
+
+
+    }
+
+    .main {
+
+        margin: 0 auto;
+        width: 200px;
+        padding: 0px;
+    }
+
+    header h1 {
+
+        display: inline-block;
+
+    }
+
+    nav {
+
+        display: inline-block;
+        clear: both;
+        text-align: center;
+    }
+
+    ul {
+
+        text-decoration: none;
+    }
+
+    li {
+        display: inline-block;
+        float: left;
+        border: 1px solid #0d02a0;
+        padding: 2px;
+        margin-right: 2px;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+    }
+
+    li:hover {
+        background-color: darkblue;
+    }
+
+    .container_content {
+
+        background-color: rgb(175, 204, 250);
+        width: 100%;
+        height: auto;
+        display: table;
+
+    }
+
+    aside {
+
+        height: auto;
+        width: 30%;
+        background-color: rgb(48, 172, 200);
+        float: right;
+        padding: 0px;
+        margin: 0;
+        font-family: cursive;
+        font-size: 14px;
+        font-style: italic;
+
+    }
+
+    .content {
+
+        float: left;
+        background-color: rgb(173, 185, 251);
+        width: 70%;
+        margin: 0px;
+        font-family: Arial;
+        font-size: 16px;
+        padding-bottom: -300px;
+
+    }
+
+    article {
+
+        display: block;
+        float: left;
+        padding: 5px;
+    }
+
+    .content img {
+
+        float: left;
+        /*max-width: 100%;*/
+        width: 30%;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+    .content p {
+
+        display: block;
+        float: right;
+        padding: 10px;
+        width: 60%;
+    }
+
+    footer {
+
+        background-color: rgb(8, 200, 147);
+        margin: 0 auto;
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+
+    footer p {
+
+        display: inline-block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+
+
+}
+
+
+@media screen  and  (max-width:600px){
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+
+    }
+
+    .wrapper {
+
+        max-width: 600px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    header {
+
+        max-height: 70px;
+        width: 100%;
+        background-color: rgb(25, 97, 210);
+
+    }
+
+    header img {
+
+        max-width: 60px;
+        max-height: 60px;
+        float: left;
+        margin: 0 auto;
+
+
+
+
+    }
+
+    .main {
+
+        margin: 0 auto;
+        width: 200px;
+        padding: 5px;
+    }
+
+    header h1 {
+
+    }
+
+    nav {
+
+        display: inline-block;
+        clear: both;
+        text-align: center;
+    }
+
+    ul {
+
+        text-decoration: none;
+    }
+
+    li {
+        display: inline-block;
+        float: left;
+        border: 1px solid #0d02a0;
+        padding: 4px;
+        margin-right: 2px;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+    }
+
+    li:hover {
+        background-color: darkblue;
+    }
+
+    .container_content {
+
+        background-color: rgb(175, 204, 250);
+        width: 100%;
+        height: auto;
+        display: table;
+
+    }
+
+    aside {
+
+        display: none;
+/*        height: auto;
+        width: 25%;
+        background-color: rgb(48, 172, 200);
+        float: right;
+        padding: 10px;
+        margin: 0;
+        font-family: cursive;
+        font-size: 14px;
+        font-style: italic;*/
+
+    }
+
+    .content {
+
+
+        background-color: rgb(173, 185, 251);
+        width: 100%;
+        margin: 0px;
+        font-family: Arial;
+        font-size: 16px;
+
+    }
+
+    article {
+
+        display: block;
+        clear: both;
+        padding: 10px;
+    }
+
+    .content img {
+
+        float: left;
+        /*max-width: 100%;*/
+        width: 30%;
+        height: 20%;
+
+    }
+
+    .content p {
+
+        padding: 10px;
+        width: 60%;
+    }
+
+    footer {
+
+        background-color: rgb(8, 200, 147);
+        margin: 0 auto;
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+
+    footer p {
+
+        display: inline-block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+}
